@@ -30,7 +30,7 @@ while (numeriDispari.length < 10) {
 console.log("il tuo array ha " + numeriDispari.length + " numeri");
 console.log("hai i seguenti numeri dispari " + numeriDispari);
 document.write(
-  "il tuo array è composto da " + numeriDispari.length + " numeri " + "<br>"
+  "il tuo array è composto da " + numeriDispari.length + " numeri: " + "<br>"
 );
 for (let i = 0; i < numeriDispari.length; i++)
   document.write("<br>" + numeriDispari[i] + "<br>");
